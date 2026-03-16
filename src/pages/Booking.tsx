@@ -69,7 +69,7 @@ const Booking = () => {
       <Hero
         title="Book Your Session"
         subtitle="Let's capture your special moments together"
-        backgroundImage="https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        backgroundImage="src/assets/6.jpeg"
         height="h-96"
       />
 

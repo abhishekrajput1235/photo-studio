@@ -129,7 +129,7 @@ const Packages = () => {
       <Hero
         title="Our Packages"
         subtitle="Flexible pricing options designed to fit your needs and budget"
-        backgroundImage="src/assets/camera.jpg"
+        backgroundImage="src/assets/8.jpeg"
         height="h-96"
       />
 

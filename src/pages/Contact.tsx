@@ -44,7 +44,7 @@ const Contact = () => {
       <Hero
         title="Get in Touch"
         subtitle="We'd love to hear from you and discuss your photography needs"
-        backgroundImage="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        backgroundImage="src/assets/7.jpeg"
         height="h-96"
       />
 
