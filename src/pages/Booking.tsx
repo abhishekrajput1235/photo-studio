@@ -30,6 +30,10 @@ const Booking = () => {
     setSubmitStatus('idle');
 
     try {
+      if (!supabase) {
+        throw new Error('Supabase is not configured');
+      }
+
       const { error } = await supabase.from('bookings').insert([
         {
           name: formData.name,
