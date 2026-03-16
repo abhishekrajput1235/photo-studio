@@ -25,7 +25,7 @@ const Portfolio = () => {
       <Hero
         title="Our Portfolio"
         subtitle="Explore our collection of beautifully captured moments"
-        backgroundImage="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        backgroundImage="src/assets/portfolio.jpeg"
         height="h-96"
       />
 

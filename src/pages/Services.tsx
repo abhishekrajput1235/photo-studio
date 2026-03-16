@@ -64,7 +64,7 @@ const Services = () => {
       <Hero
         title="Our Photography Services"
         subtitle="Professional photography for every occasion and milestone"
-        backgroundImage="https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        backgroundImage="src/assets/our-services.jpeg"
         height="h-96"
       />
 
