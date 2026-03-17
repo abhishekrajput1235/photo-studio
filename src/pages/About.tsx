@@ -40,7 +40,7 @@ const About = () => {
         title="About GoldenLens Studio"
         subtitle="Your story, beautifully told through our lens"
         backgroundImage="/src/assets/2.jpeg"
-        height="h-96"
+  
       />
 
       <section className="py-20 bg-white">
