@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import GalleryGrid from '../components/GalleryGrid';
+import portfolioHeroImage from '../assets/portfolio.jpeg';
 
 const Portfolio = () => {
   const images = [
@@ -25,7 +26,7 @@ const Portfolio = () => {
       <Hero
         title="Our Portfolio"
         subtitle="Explore our collection of beautifully captured moments"
-        backgroundImage="src/assets/portfolio.jpeg"
+        backgroundImage={portfolioHeroImage}
         height="h-96"
       />
 

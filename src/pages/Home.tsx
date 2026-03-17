@@ -3,6 +3,10 @@ import Hero from '../components/Hero';
 import ServiceCard from '../components/ServiceCard';
 import Testimonial from '../components/Testimonial';
 import { Award, Camera, Heart, Users } from 'lucide-react';
+import weddingImage from '../assets/wedding.webp';
+import preWeddingImage from '../assets/pre-wedding.jpg';
+import birthdayImage from '../assets/birthday.jpg';
+import heroImage from '../assets/indian3.jpeg';
 
 const Home = () => {
   const services = [
@@ -10,19 +14,19 @@ const Home = () => {
       title: 'Wedding Photography',
       description: 'Capture your special day with stunning, timeless wedding photography that tells your unique love story.',
       price: '$2,500',
-      image: 'src/assets/wedding.webp',
+      image: weddingImage,
     },
     {
       title: 'Pre-Wedding Shoots',
       description: 'Romantic and creative pre-wedding photoshoots in beautiful locations to celebrate your journey.',
       price: '$800',
-      image: 'src/assets/pre-wedding.jpg',
+      image: preWeddingImage,
     },
     {
       title: 'Birthday Photography',
       description: 'Celebrate milestones with vibrant, joyful birthday photography that captures every smile and moment.',
       price: '$500',
-      image: 'src/assets/birthday.jpg',
+      image: birthdayImage,
     },
   ];
 
@@ -56,13 +60,8 @@ const Home = () => {
 
   return (
     <div>
-      {/* <Hero
-        title="Capturing Life's Precious Moments"
-        subtitle="Professional photography services for weddings, events, and special occasions"
-        backgroundImage="https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=1600"
-      /> */}
 <Hero
-  backgroundImage="src/assets/indian3.jpeg"
+  backgroundImage={heroImage}
   badge="Est. 2024"
   eyebrow="The Summit Collection"
   title="Where Earth Meets"

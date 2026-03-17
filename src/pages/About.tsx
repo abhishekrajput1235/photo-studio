@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import { Camera, Award, Heart, Zap } from 'lucide-react';
+import aboutHeroImage from '../assets/2.jpeg';
 
 const About = () => {
   const values = [
@@ -39,7 +40,7 @@ const About = () => {
       <Hero
         title="About GoldenLens Studio"
         subtitle="Your story, beautifully told through our lens"
-        backgroundImage="/src/assets/2.jpeg"
+        backgroundImage={aboutHeroImage}
   
       />
 

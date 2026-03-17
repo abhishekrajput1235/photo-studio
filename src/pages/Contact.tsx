@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Hero from '../components/Hero';
 import { Phone, Mail, MapPin, Instagram, Facebook, MessageSquare } from 'lucide-react';
+import contactHeroImage from '../assets/7.jpeg';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -44,7 +45,7 @@ const Contact = () => {
       <Hero
         title="Get in Touch"
         subtitle="We'd love to hear from you and discuss your photography needs"
-        backgroundImage="src/assets/7.jpeg"
+        backgroundImage={contactHeroImage}
         height="h-96"
       />
 

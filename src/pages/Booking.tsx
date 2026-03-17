@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Hero from '../components/Hero';
 import { Calendar, MapPin, Mail, Phone, User, MessageSquare } from 'lucide-react';
 import { supabase } from '../lib/supabase';
+import bookingHeroImage from '../assets/6.jpeg';
 
 const Booking = () => {
   const [formData, setFormData] = useState({
@@ -73,7 +74,7 @@ const Booking = () => {
       <Hero
         title="Book Your Session"
         subtitle="Let's capture your special moments together"
-        backgroundImage="src/assets/6.jpeg"
+        backgroundImage={bookingHeroImage}
         height="h-96"
       />
 

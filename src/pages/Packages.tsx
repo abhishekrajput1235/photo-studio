@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import PricingCard from '../components/PricingCard';
+import packagesHeroImage from '../assets/8.jpeg';
 
 const Packages = () => {
   const weddingPackages = [
@@ -129,7 +130,7 @@ const Packages = () => {
       <Hero
         title="Our Packages"
         subtitle="Flexible pricing options designed to fit your needs and budget"
-        backgroundImage="src/assets/8.jpeg"
+        backgroundImage={packagesHeroImage}
         height="h-96"
       />
 
