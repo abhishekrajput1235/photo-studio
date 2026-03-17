@@ -10,6 +10,8 @@ import Portfolio from './pages/Portfolio';
 import Packages from './pages/Packages';
 import Booking from './pages/Booking';
 import Contact from './pages/Contact';
+import WhatsAppChat from './components/WhatsAppChat';
+import SocialMedia from './components/socialMedia';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -53,10 +55,12 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <SocialMedia />
+        <WhatsAppChat />
         {showScrollTop && (
           <button
             onClick={scrollToTop}
-            className="fixed bottom-8 right-8 z-50 p-3 rounded-full bg-amber-500 text-white shadow-lg hover:bg-amber-600 transition-all duration-300 cursor-pointer"
+            className="fixed bottom-28 right-8 z-50 p-3 rounded-full bg-amber-500 text-white shadow-lg hover:bg-amber-600 transition-all duration-300 cursor-pointer"
             aria-label="Scroll to top"
           >
             <ArrowUp size={20} />

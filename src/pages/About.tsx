@@ -1,6 +1,7 @@
 import Hero from '../components/Hero';
 import { Camera, Award, Heart, Zap } from 'lucide-react';
 import aboutHeroImage from '../assets/2.jpeg';
+import OurTeam from '../components/OurTeam';
 
 const About = () => {
   const values = [
@@ -133,6 +134,8 @@ const About = () => {
           </div>
         </div>
       </section>
+      <OurTeam />
+
 
       <section className="py-20 bg-gradient-to-r from-yellow-500 to-yellow-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
