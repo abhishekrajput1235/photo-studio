@@ -41,7 +41,7 @@ const About = () => {
   return (
     <div>
       <Hero
-        title="About GoldenLens Studio"
+        title="About Guddu Raj Studio"
         subtitle="Your story, beautifully told through our lens"
         backgroundImage={aboutHeroImage}
   
@@ -53,7 +53,7 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Founded in 2013, GoldenLens Photography Studio was born from a simple passion: capturing the beauty
+                Founded in 2013, Guddu Raj Photography Studio was born from a simple passion: capturing the beauty
                 in life's most precious moments. What started as a dream has grown into a full-service photography
                 studio trusted by hundreds of clients.
               </p>

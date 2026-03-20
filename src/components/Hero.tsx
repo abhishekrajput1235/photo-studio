@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from 'react-router-dom';
 
 interface HeroProps {
   title: string;
@@ -35,18 +36,18 @@ export default function Hero({
 
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-[position:70%_center] scale-105 transition-transform duration-[8000ms] ease-out hover:scale-100"
+        className="absolute inset-0 bg-cover bg-[position:70%_center] scale-105 transition-transform duration-[8000ms] ease-out hover:scale-100 pointer-events-none"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       />
 
       {/* Vertical Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10 pointer-events-none" />
 
       {/* Left Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent pointer-events-none" />
 
       {/* Cinematic Light Effect */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_left,rgba(255,255,255,0.08),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_left,rgba(255,255,255,0.08),transparent_50%)] pointer-events-none" />
 
       {/* Badge */}
       {badge && (
@@ -56,7 +57,7 @@ export default function Hero({
       )}
 
       {/* Main Content */}
-      <div className="relative z-10 px-6 md:px-12 pb-16 max-w-3xl top-[-100px] md:top-[-120px]">
+      <div className="relative z-20 px-6 md:px-12 pb-16 max-w-3xl top-[-100px] md:top-[-120px]">
 
         {/* Eyebrow */}
         {eyebrow && (
@@ -87,13 +88,13 @@ export default function Hero({
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-8 md:mt-10">
 
-          <button className="bg-amber-400 text-black text-xs tracking-widest uppercase px-6 md:px-8 py-3 hover:bg-amber-300 transition">
-            Explore Now
-          </button>
+          <Link to="/shop" className="relative z-30 bg-amber-400 text-black text-xs tracking-widest uppercase px-6 md:px-8 py-3 hover:bg-amber-300 transition">
+            Explore Our Shop
+          </Link>
 
-          <button className="border border-white/30 text-white text-xs tracking-widest uppercase px-6 md:px-8 py-3 hover:border-white transition">
+          <Link to="/portfolio" className="border border-white/30 text-white text-xs tracking-widest uppercase px-6 md:px-8 py-3 hover:border-white transition">
             View Gallery
-          </button>
+          </Link>
 
         </div>
       </div>

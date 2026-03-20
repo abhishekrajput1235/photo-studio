@@ -46,7 +46,7 @@ const SocialMedia = () => {
 
 	return (
 		<div className="fixed bottom-8 left-5 z-50 md:left-8">
-			<div className="relative h-48 w-48">
+			<div className="">
 				{socialItems.map((item, index) => {
 					const Icon = item.icon;
 					const angle = (Math.PI / 2 / (socialItems.length - 1)) * index;

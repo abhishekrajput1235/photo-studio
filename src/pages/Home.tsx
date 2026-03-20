@@ -34,7 +34,7 @@
 //     {
 //       name: 'Sarah & Michael',
 //       event: 'Wedding Photography',
-//       text: 'GoldenLens captured our wedding day perfectly! Every moment was beautifully documented. We are forever grateful for these precious memories.',
+//       text: 'Guddu Raj captured our wedding day perfectly! Every moment was beautifully documented. We are forever grateful for these precious memories.',
 //       rating: 5,
 //     },
 //     {
@@ -78,7 +78,7 @@
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 //           <div className="text-center mb-16">
 //             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-//               Welcome to <span className="text-yellow-500">GoldenLens</span>
+//               Welcome to <span className="text-yellow-500">Guddu Raj</span>
 //             </h2>
 //             <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
 //               We are passionate photographers dedicated to capturing your most cherished moments.
@@ -199,7 +199,7 @@ const Home = () => {
     {
       name: 'Sarah & Michael',
       event: 'Wedding Photography',
-      text: 'GoldenLens captured our wedding day perfectly! Every moment was beautifully documented. We are forever grateful for these precious memories.',
+      text: 'Guddu Raj captured our wedding day perfectly! Every moment was beautifully documented. We are forever grateful for these precious memories.',
       rating: 5,
     },
     {
@@ -243,7 +243,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Welcome to <span className="text-yellow-500">GoldenLens</span>
+              Welcome to <span className="text-yellow-500">Guddu Raj</span>
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
               We are passionate photographers dedicated to capturing your most cherished moments.

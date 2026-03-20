@@ -45,7 +45,7 @@
 // 			<div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 // 				<div className="text-center mb-14">
 // 					<p className="text-yellow-500 tracking-[0.2em] uppercase text-xs mb-3">Meet The Team</p>
-// 					<h2 className="text-4xl md:text-5xl font-bold text-white mb-5">Artists Behind GoldenLens</h2>
+// 					<h2 className="text-4xl md:text-5xl font-bold text-white mb-5">Artists Behind Guddu Raj</h2>
 // 					<p className="text-gray-300 max-w-2xl mx-auto leading-relaxed">
 // 						Every frame we deliver is shaped by a team that understands light, emotion, and story. Our photographers
 // 						work together to make your moments look unforgettable.
@@ -258,7 +258,7 @@ const OurTeam = () => {
 					>
 						Behind{' '}
 						<span className="italic" style={{ color: '#D4A843' }}>
-							GoldenLens
+							Guddu Raj
 						</span>
 					</h2>
 					<GoldDivider />

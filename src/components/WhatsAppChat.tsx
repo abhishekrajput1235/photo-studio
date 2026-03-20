@@ -29,7 +29,7 @@ const handleSend = () => {
         <div className="w-[300px] sm:w-[340px] overflow-hidden rounded-2xl border border-emerald-500/30 bg-white shadow-2xl mb-4">
           <div className="flex items-center justify-between bg-[#075E54] px-4 py-3 text-white">
             <div>
-              <p className="text-sm font-semibold">GoldenLens Support</p>
+              <p className="text-sm font-semibold">Guddu Raj Support</p>
               <p className="text-xs text-white/80">Typically replies in minutes</p>
             </div>
             <button
