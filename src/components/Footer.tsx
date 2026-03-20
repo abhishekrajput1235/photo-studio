@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <Camera className="w-8 h-8 text-yellow-500" />
               <span className="text-2xl font-bold">
-                Golden<span className="text-yellow-500">Lens</span>
+                Guddu<span className="text-yellow-500">Raj</span>
               </span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -68,15 +68,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-3 text-gray-400 text-sm">
                 <Phone className="w-4 h-4 text-yellow-500" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 8528157913</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400 text-sm">
                 <Mail className="w-4 h-4 text-yellow-500" />
-                <span>info@goldenlens.com</span>
+                <span>guddurajput53188@gmail.com</span>
               </li>
               <li className="flex items-start space-x-3 text-gray-400 text-sm">
                 <MapPin className="w-4 h-4 text-yellow-500 mt-1" />
-                <span>123 Photography Street, Studio City, CA 90210</span>
+                <span>Gahra Chaurah, Kashipur Road, Kanpur Dehat (U.P.)</span>
               </li>
             </ul>
             <div className="flex space-x-4 mt-6">
@@ -94,7 +94,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {currentYear} GoldenLens Photography Studio. All rights reserved.</p>
+          <p>&copy; {currentYear} Guddu Raj Photography Studio. All rights reserved.</p>
         </div>
       </div>
     </footer>

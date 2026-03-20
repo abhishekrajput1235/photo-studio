@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2 group">
             <Camera className="w-8 h-8 text-yellow-500 group-hover:scale-110 transition-transform" />
             <span className="text-2xl font-bold text-white">
-              Golden<span className="text-yellow-500">Lens</span>
+              Guddu<span className="text-yellow-500">Raj</span>
             </span>
           </Link>
 

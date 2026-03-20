@@ -113,12 +113,12 @@ const About = () => {
               <p className="text-gray-600 mb-4 leading-relaxed">
                 <span className="font-bold text-gray-900">Guddu Raj</span> is an award-winning photographer
                 with over 10 years of experience in the industry. With a degree in Fine Arts and Photography,
-                Alex combines technical expertise with artistic vision.
+                Guddu Raj combines technical expertise with artistic vision.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Having photographed over 500 weddings and countless special events, Alex has a natural ability
+                Having photographed over 500 weddings and countless special events, Guddu Raj has a natural ability
                 to capture genuine emotions and create stunning visual narratives. When not behind the camera,
-                Alex mentors aspiring photographers and conducts workshops.
+                Guddu Raj mentors aspiring photographers and conducts workshops.
               </p>
               <div className="bg-yellow-50 p-6 rounded-lg">
                 <h3 className="font-bold text-gray-900 mb-3">Achievements & Recognition</h3>
@@ -131,7 +131,27 @@ const About = () => {
                   ))}
                 </ul>
               </div>
-            </div>
+<a href="/shop" className="relative inline-block mt-6 group">
+  {/* Chroma Border */}
+  <span
+    className="absolute inset-0 rounded-xl p-[1.5px] 
+               bg-gradient-to-r from-pink-500 via-yellow-400 to-purple-500 
+               opacity-70 group-hover:opacity-100 
+               blur-[2px] group-hover:blur-[4px] 
+               transition-all duration-300"
+  ></span>
+
+  {/* Button */}
+  <span
+    className="relative inline-flex items-center justify-center px-7 py-3 
+               bg-neutral-900 text-white font-semibold rounded-xl 
+               border border-white/10 
+               group-hover:bg-black 
+               transition-all duration-300"
+  >
+    Our Electronic Shop
+  </span>
+</a>          </div>
           </div>
         </div>
       </section>

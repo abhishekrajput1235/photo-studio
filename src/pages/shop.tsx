@@ -575,7 +575,7 @@ export default function ApplianceShowcase() {
 
       <div className="top-strip">
         <div className="shell top-strip-content">
-          📍 Shop No. 12, Main Market, Sector 18, Noida | 📞 +91 98765 43210 | 🕐 Open Daily 10AM - 9PM
+          📍 Gahra Chaurah Kashipur Road | 📞 +91 85281 57913 | 🕐 Open Daily 10AM - 9PM
         </div>
       </div>
 
@@ -593,7 +593,7 @@ export default function ApplianceShowcase() {
               appliance home today.
             </p>
             <div className="hero-actions">
-              <a className="button button-primary" href="tel:+919876543210">
+              <a className="button button-primary" href="tel:+918528157913">
                 📞 Call Now
               </a>
               <a className="button button-secondary" href="#products">
@@ -666,7 +666,7 @@ export default function ApplianceShowcase() {
 
             <span className="saving-tag">{product.saving}</span>
 
-            <a className="button button-primary" href="tel:+919876543210" style={{ width: "fit-content" }}>
+            <a className="button button-primary" href="tel:+918528157913" style={{ width: "fit-content" }}>
               📞 Enquire Now
             </a>
           </div>
@@ -745,7 +745,7 @@ export default function ApplianceShowcase() {
             </p>
             <a
               className="button"
-              href="tel:+919876543210"
+              href="tel:+918528157913"
               style={{
                 width: "fit-content",
                 color: "#0f172a",
