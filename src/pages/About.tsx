@@ -131,7 +131,7 @@ const About = () => {
                   ))}
                 </ul>
               </div>
-<a href="/shop" className="relative inline-block mt-6 group">
+<button onClick={() => window.location.href = '/shop'} className="relative inline-block mt-6 group">
   {/* Chroma Border */}
   <span
     className="absolute inset-0 rounded-xl p-[1.5px] 
@@ -151,7 +151,7 @@ const About = () => {
   >
     Our Electronic Shop
   </span>
-</a>          </div>
+</button>          </div>
           </div>
         </div>
       </section>
