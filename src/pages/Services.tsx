@@ -1,3 +1,139 @@
+// import Hero from '../components/Hero';
+// import ServiceCard from '../components/ServiceCard';
+// import weddingImage from '../assets/wedding.webp';
+// import preWeddingImage from '../assets/pre-wedding.jpg';
+// import birthdayImage from '../assets/birthday.jpg';
+// import corporateEventImage from '../assets/corporate-event.webp';
+// import babyPhotographyImage from '../assets/baby-photography.jpg';
+// import engagementCeremoniesImage from '../assets/engagement-ceremonies.webp';
+// import familyFunctionsImage from '../assets/family-functions.jpg';
+// import outdoorPhotoshootsImage from '../assets/outdoor-photoshoots.webp';
+// import realEstateImage from '../assets/real-estate.jpg';
+// import servicesHeroImage from '../assets/our-services.jpeg';
+
+// const Services = () => {
+//   const services = [
+//     {
+//       title: 'Wedding Photography',
+//       description: 'Complete wedding day coverage with artistic storytelling, candid moments, and stunning portraits. Includes engagement session and premium album.',
+//       price: '$2,500',
+//       image: weddingImage,
+//     },
+//     {
+//       title: 'Pre-Wedding Shoots',
+//       description: 'Romantic outdoor photoshoots at picturesque locations. Perfect for save-the-date cards and wedding invitations.',
+//       price: '$800',
+//       image: preWeddingImage,
+//     },
+//     {
+//       title: 'Birthday Photography',
+//       description: 'Capture the joy and excitement of birthday celebrations with vibrant, energetic photography for all ages.',
+//       price: '$500',
+//       image: birthdayImage,
+//     },
+//     {
+//       title: 'Corporate Events',
+//       description: 'Professional documentation of corporate events, conferences, and business gatherings with quick turnaround.',
+//       price: '$1,200',
+//       image: corporateEventImage,
+//     },
+//     {
+//       title: 'Baby Photography',
+//       description: 'Gentle newborn and baby photoshoots capturing precious early moments with safety as our top priority.',
+//       price: '$600',
+//       image: babyPhotographyImage,
+//     },
+//     {
+//       title: 'Engagement Ceremonies',
+//       description: 'Beautiful documentation of your engagement celebration with family and friends in traditional or modern style.',
+//       price: '$900',
+//       image: engagementCeremoniesImage,
+//     },
+//     {
+//       title: 'Family Functions',
+//       description: 'Preserve memories of family gatherings, reunions, and special occasions with warm, candid photography.',
+//       price: '$700',
+//       image: familyFunctionsImage,
+//     },
+//     {
+//       title: 'Outdoor Photoshoots',
+//       description: 'Creative outdoor sessions in natural settings, perfect for portraits, couples, and lifestyle photography.',
+//       price: '$650',
+//       image: outdoorPhotoshootsImage,
+//     },
+//     {
+//       title: 'Real Estate Photography',
+//       description: 'High-quality photos showcasing properties for sale or rent, highlighting key features and curb appeal.',
+//       price: '$650',
+//       image: realEstateImage,
+//     },
+//   ];
+
+//   return (
+//     <div>
+//       <Hero
+//         title="Our Photography Services"
+//         subtitle="Professional photography for every occasion and milestone"
+//         backgroundImage={servicesHeroImage}
+//         height="h-96"
+//       />
+
+//       <section className="py-20 bg-white">
+//         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+//           <div className="text-center mb-16">
+//             <h2 className="text-4xl font-bold text-gray-900 mb-4">
+//               Complete Photography Solutions
+//             </h2>
+//             <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
+//               From intimate moments to grand celebrations, we offer comprehensive photography services
+//               tailored to your needs. Each package includes high-resolution images, professional editing,
+//               and flexible delivery options.
+//             </p>
+//           </div>
+
+//           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+//             {services.map((service, index) => (
+//               <ServiceCard key={index} {...service} />
+//             ))}
+//           </div>
+//         </div>
+//       </section>
+
+//       <section className="py-20 bg-gray-50">
+//         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+//           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">What's Included</h2>
+//           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+//             <div className="bg-white p-6 rounded-lg shadow-lg">
+//               <h3 className="text-xl font-bold text-gray-900 mb-4">All Packages Include:</h3>
+//               <ul className="space-y-3 text-gray-600">
+//                 <li>✓ Professional photographer</li>
+//                 <li>✓ High-resolution edited images</li>
+//                 <li>✓ Online gallery access</li>
+//                 <li>✓ Print rights</li>
+//                 <li>✓ 2-week delivery</li>
+//               </ul>
+//             </div>
+//             <div className="bg-white p-6 rounded-lg shadow-lg">
+//               <h3 className="text-xl font-bold text-gray-900 mb-4">Premium Add-ons:</h3>
+//               <ul className="space-y-3 text-gray-600">
+//                 <li>✓ Same-day editing</li>
+//                 <li>✓ Premium albums</li>
+//                 <li>✓ Canvas prints</li>
+//                 <li>✓ Additional photographer</li>
+//                 <li>✓ Drone photography</li>
+//               </ul>
+//             </div>
+//           </div>
+//         </div>
+//       </section>
+//     </div>
+//   );
+// };
+
+// export default Services;
+
+
+
 import Hero from '../components/Hero';
 import ServiceCard from '../components/ServiceCard';
 import weddingImage from '../assets/wedding.webp';
@@ -17,54 +153,63 @@ const Services = () => {
       title: 'Wedding Photography',
       description: 'Complete wedding day coverage with artistic storytelling, candid moments, and stunning portraits. Includes engagement session and premium album.',
       price: '$2,500',
+      discount: 15,           // 15% off → $2,125
       image: weddingImage,
     },
     {
       title: 'Pre-Wedding Shoots',
       description: 'Romantic outdoor photoshoots at picturesque locations. Perfect for save-the-date cards and wedding invitations.',
       price: '$800',
+      discount: 10,           // 10% off → $720
       image: preWeddingImage,
     },
     {
       title: 'Birthday Photography',
       description: 'Capture the joy and excitement of birthday celebrations with vibrant, energetic photography for all ages.',
       price: '$500',
+      discount: 0,            // no discount
       image: birthdayImage,
     },
     {
       title: 'Corporate Events',
       description: 'Professional documentation of corporate events, conferences, and business gatherings with quick turnaround.',
       price: '$1,200',
+      discount: 20,           // 20% off → $960
       image: corporateEventImage,
     },
     {
       title: 'Baby Photography',
       description: 'Gentle newborn and baby photoshoots capturing precious early moments with safety as our top priority.',
       price: '$600',
+      discount: 0,
       image: babyPhotographyImage,
     },
     {
       title: 'Engagement Ceremonies',
       description: 'Beautiful documentation of your engagement celebration with family and friends in traditional or modern style.',
       price: '$900',
+      discount: 10,           // 10% off → $810
       image: engagementCeremoniesImage,
     },
     {
       title: 'Family Functions',
       description: 'Preserve memories of family gatherings, reunions, and special occasions with warm, candid photography.',
       price: '$700',
+      discount: 0,
       image: familyFunctionsImage,
     },
     {
       title: 'Outdoor Photoshoots',
       description: 'Creative outdoor sessions in natural settings, perfect for portraits, couples, and lifestyle photography.',
       price: '$650',
+      discount: 15,           // 15% off → $553
       image: outdoorPhotoshootsImage,
     },
     {
       title: 'Real Estate Photography',
       description: 'High-quality photos showcasing properties for sale or rent, highlighting key features and curb appeal.',
       price: '$650',
+      discount: 0,
       image: realEstateImage,
     },
   ];
@@ -75,7 +220,6 @@ const Services = () => {
         title="Our Photography Services"
         subtitle="Professional photography for every occasion and milestone"
         backgroundImage={servicesHeroImage}
-        height="h-96"
       />
 
       <section className="py-20 bg-white">

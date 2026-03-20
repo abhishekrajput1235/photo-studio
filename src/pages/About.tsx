@@ -2,6 +2,7 @@ import Hero from '../components/Hero';
 import { Camera, Award, Heart, Zap } from 'lucide-react';
 import aboutHeroImage from '../assets/2.jpeg';
 import OurTeam from '../components/OurTeam';
+import gudduraj from  '../assets/guddu-raj.jpeg';
 
 const About = () => {
   const values = [
@@ -102,7 +103,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
               <img
-                src="https://images.pexels.com/photos/1983037/pexels-photo-1983037.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={gudduraj}
                 alt="Photographer"
                 className="rounded-lg shadow-2xl"
               />
@@ -110,7 +111,7 @@ const About = () => {
             <div className="order-1 lg:order-2">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Meet Our Lead Photographer</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                <span className="font-bold text-gray-900">Alex Thompson</span> is an award-winning photographer
+                <span className="font-bold text-gray-900">Guddu Raj</span> is an award-winning photographer
                 with over 10 years of experience in the industry. With a degree in Fine Arts and Photography,
                 Alex combines technical expertise with artistic vision.
               </p>

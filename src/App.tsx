@@ -12,6 +12,7 @@ import Booking from './pages/Booking';
 import Contact from './pages/Contact';
 import WhatsAppChat from './components/WhatsAppChat';
 import SocialMedia from './components/socialMedia';
+import Shop from './pages/shop';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -51,6 +52,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/packages" element={<Packages />} />
             <Route path="/booking" element={<Booking />} />
+            <Route path="/shop" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
