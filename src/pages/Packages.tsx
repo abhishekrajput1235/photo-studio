@@ -196,6 +196,7 @@ import { useEffect } from 'react';
 import Hero from '../components/Hero';
 import PricingCard from '../components/PricingCard';
 import packagesHeroImage from '../assets/8.jpeg';
+import { Link } from 'react-router-dom';
 
 /* ── Section crown divider ── */
 const SectionCrest = ({ label }: { label: string }) => (
@@ -564,8 +565,8 @@ const Packages = () => {
           </p>
 
           <div style={{ display: 'inline-block', padding: '1px', background: 'linear-gradient(90deg, #7a5208, #E8C96D, #7a5208)' }}>
-            <a
-              href="/booking"
+            <Link
+              to="/booking"
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
@@ -590,7 +591,7 @@ const Packages = () => {
               }}
             >
               Request a Bespoke Quote
-            </a>
+            </Link>
           </div>
         </div>
       </section>

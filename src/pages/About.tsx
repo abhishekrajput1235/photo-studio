@@ -3,6 +3,7 @@ import { Camera, Award, Heart, Zap } from 'lucide-react';
 import aboutHeroImage from '../assets/2.jpeg';
 import OurTeam from '../components/OurTeam';
 import gudduraj from  '../assets/guddu-raj.jpeg';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   const values = [
@@ -131,7 +132,7 @@ const About = () => {
                   ))}
                 </ul>
               </div>
-<button onClick={() => window.location.href = '/shop'} className="relative inline-block mt-6 group">
+<Link to="/shop" className="relative inline-block mt-6 group">
   {/* Chroma Border */}
   <span
     className="absolute inset-0 rounded-xl p-[1.5px] 
@@ -151,7 +152,7 @@ const About = () => {
   >
     Our Electronic Shop
   </span>
-</button>          </div>
+</Link>          </div>
           </div>
         </div>
       </section>
