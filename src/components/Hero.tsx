@@ -88,11 +88,11 @@ export default function Hero({
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-8 md:mt-10">
 
-          <Link to="/shop" className="relative z-30 bg-amber-400 text-black text-xs tracking-widest uppercase px-6 md:px-8 py-3 hover:bg-amber-300 transition">
+          <Link to="/shop" className="relative z-30 text-center bg-amber-400 text-black text-xs tracking-widest uppercase px-6 md:px-8 py-3 hover:bg-amber-300 transition">
             Explore Our Shop
           </Link>
 
-          <Link to="/portfolio" className="border border-white/30 text-white text-xs tracking-widest uppercase px-6 md:px-8 py-3 hover:border-white transition">
+          <Link to="/portfolio" className="border text-center border-white/30 text-white text-xs tracking-widest uppercase px-6 md:px-8 py-3 hover:border-white transition">
             View Gallery
           </Link>
 
